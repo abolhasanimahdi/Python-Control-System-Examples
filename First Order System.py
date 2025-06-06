@@ -1,26 +1,29 @@
 import numpy as np  # Import numpy for numerical operations
 import matplotlib.pyplot as plt  # Import matplotlib for plotting
-
-def first_order_response(K, T, start_time, stop_time, increment):
-    t = np.arange(start_time, stop_time, increment)  # Time vector
-    y = K * (1 - np.exp(-t / T))  # System response
-    return t, y
+import scipy.integrate as scipy
 
 start_time = 0
-stop_time = 30
-
+stop_time = 40
 K = 3
 T = 4
-t1, y1 = first_order_response(K, T, start_time, stop_time, 0.1)
-K = 4
-T = 5
-t2, y2 = first_order_response(K, T, start_time, stop_time, 0.1)
+u = 1
+y0 = 0
+Increment = 0.1
+
+t = np.arange(start_time, stop_time, Increment)  # Time vector
+y1 = K * (1 - np.exp(-t / T))  # System response
+
+def system(y, t, K, T, u):
+    dydt = (K * u - y) / T
+    return dydt
+
+y2 = scipy.odeint(system, y0, t, args = (K, T, u))
 
 # Plot both responses on the same figure
 plt.figure(figsize=(8, 5))
-plt.plot(t1, y1, label='K = 3, T = 4')
-plt.plot(t2, y2, label='K = 4, T = 5', linestyle='--')
-plt.title('First Order System Step Response')
+plt.plot(t, y1, label='Simulate Time Domain Response')
+plt.plot(t, y2, label='Solve ODE', linestyle='--')
+plt.title(r"$\dot{y} = \frac{1}{%d}(%du - y)$" % (T, K))
 plt.xlabel('Time (seconds)')
 plt.ylabel('Output y(t)')
 plt.grid(True)
