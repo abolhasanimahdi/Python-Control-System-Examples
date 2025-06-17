@@ -23,6 +23,14 @@ N = int(stop_time/Ts)
 data = []
 data.append(yk)
 
+x0 = [0, 0]
+A = [[-1/T,0],
+     [0, 0]]
+B = [[K/T],
+     [0]]
+C = [[1, 0]]
+D = 0
+
 num = np.array([K])
 den = np.array([T, 1])
 # Time vector
@@ -49,12 +57,16 @@ print('H(s) =', H)
 
 tt, y_Transfer = control.step_response(H)
 
+sys = sig.StateSpace(A, B, C, D)
+ts, y_State = sig.step(sys, x0, t)
+
 # Plot both responses
 plt.figure(figsize=(8, 5))
 plt.plot(t, y_analytical, label='Analytical Solution')
 plt.plot(t, y_numerical, label='Numerical Solution (ODE)', linestyle='--')
 plt.plot(td, data, label='Discrete', linestyle='--')
 plt.plot(tt, y_Transfer, label='Transfer Function', linestyle='--')
+plt.plot(ts, y_State, label='StateSpace', linestyle='--')
 plt.title(r"$\dot{y} = \frac{1}{%d}(%du - y)$" % (T, K))
 plt.xlabel('Time (seconds)')
 plt.ylabel('Output y(t)')
