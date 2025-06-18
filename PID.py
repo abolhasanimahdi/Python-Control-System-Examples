@@ -37,7 +37,7 @@ xmax = Tstop
 ymin = 0
 ymax = 8
 plt.axis([xmin, xmax, ymin, ymax])
-plt.show(block=False)
+
 # Plot Control Signal
 plt.figure(2)
 plt.plot(t,u)
