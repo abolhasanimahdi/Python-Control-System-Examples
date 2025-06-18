@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Add simulation using state-space">
-      <change afterPath="$PROJECT_DIR$/Bode Plot.py" afterDir="false" />
+    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Simplify Bode plot code using control.bode function">
+      <change afterPath="$PROJECT_DIR$/PID.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Bode Plot.executor": "Run",
     "Python.First Order System.executor": "Run",
+    "Python.PID.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -143,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750141346594</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bode Plot for frequency response analysis using transfer function">
+      <option name="closed" value="true" />
+      <created>1750142158106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750142158106</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Simplify Bode plot code using control.bode function">
+      <option name="closed" value="true" />
+      <created>1750142462423</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750142462423</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +185,9 @@
     <MESSAGE value="Hide minor problems" />
     <MESSAGE value="Implement discrete-time simulation of the first order system" />
     <MESSAGE value="Add simulation using state-space" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add simulation using state-space" />
+    <MESSAGE value="Bode Plot for frequency response analysis using transfer function" />
+    <MESSAGE value="Simplify Bode plot code using control.bode function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify Bode plot code using control.bode function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Control_System_Examples$First_Order_System.coverage" NAME="First Order System Coverage Results" MODIFIED="1749215169367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
