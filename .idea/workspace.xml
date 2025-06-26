@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Feedback control system">
-      <change afterPath="$PROJECT_DIR$/Transfer Function.py" afterDir="false" />
+    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Step response plots for varying parameters T and K">
+      <change afterPath="$PROJECT_DIR$/Time Delay Transfer Function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Python.Close Loop System.executor": "Run",
     "Python.First Order System.executor": "Run",
     "Python.PID.executor": "Run",
+    "Python.Time Delay Transfer Function.executor": "Run",
     "Python.Transfer Function.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750245283976</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Step response plots for varying parameters T and K">
+      <option name="closed" value="true" />
+      <created>1750941736174</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750941736174</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +216,8 @@
     <MESSAGE value="Simplify Bode plot code using control.bode function" />
     <MESSAGE value="PID controller" />
     <MESSAGE value="Feedback control system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feedback control system" />
+    <MESSAGE value="Step response plots for varying parameters T and K" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step response plots for varying parameters T and K" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Control_System_Examples$First_Order_System.coverage" NAME="First Order System Coverage Results" MODIFIED="1749215169367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
