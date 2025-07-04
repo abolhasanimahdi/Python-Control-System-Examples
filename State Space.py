@@ -31,5 +31,6 @@ x2 = x[1 ,:]
 plt.title("States")
 plt.xlabel("t")
 plt.ylabel("x1, x2")
+plt.grid()
 plt.plot(t, x1, t, x2)
 plt.show()
