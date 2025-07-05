@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Add state-space model">
-      <change afterPath="$PROJECT_DIR$/Mass Spring Damper.py" afterDir="false" />
+    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Add Mass Spring Damper simulation">
+      <change afterPath="$PROJECT_DIR$/Band Pass Filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State Space.py" beforeDir="false" afterPath="$PROJECT_DIR$/State Space.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Band Pass Filter.executor": "Run",
     "Python.Bode Plot.executor": "Run",
     "Python.Close Loop System.executor": "Run",
     "Python.First Order System.executor": "Run",
@@ -73,6 +73,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "settings.codegpt.services",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -206,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751632518622</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add Mass Spring Damper simulation">
+      <option name="closed" value="true" />
+      <created>1751633490279</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1751633490279</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +251,8 @@
     <MESSAGE value="Step response plots for varying parameters T and K" />
     <MESSAGE value="Time delay using pade" />
     <MESSAGE value="Add state-space model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add state-space model" />
+    <MESSAGE value="Add Mass Spring Damper simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mass Spring Damper simulation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Control_System_Examples$First_Order_System.coverage" NAME="First Order System Coverage Results" MODIFIED="1749215169367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
