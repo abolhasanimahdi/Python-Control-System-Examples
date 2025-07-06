@@ -23,7 +23,7 @@ time = [0]
 # Plot setup
 fig, ax = plt.subplots()
 line, = ax.plot([], [], '-*', label='Output y(t)')
-ax.set_xlim(0, 0)  # Initial range, will auto-expand
+ax.set_xlim(0, 1)  # Initial range, will auto-expand
 ax.set_ylim(0, 1.5)
 ax.set_title('Control of 1st Order Dynamic System')
 ax.set_xlabel('t [s]')
