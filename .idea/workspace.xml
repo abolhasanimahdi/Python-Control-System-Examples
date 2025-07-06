@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Band Pass Filter simulation">
-      <change afterPath="$PROJECT_DIR$/Control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PID Simulation.py" afterDir="false" />
+    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="First order system control and PID simulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PID Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PID Simulation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751715889313</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="First order system control and PID simulation">
+      <option name="closed" value="true" />
+      <created>1751784718320</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751784718320</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +271,8 @@
     <MESSAGE value="Add state-space model" />
     <MESSAGE value="Add Mass Spring Damper simulation" />
     <MESSAGE value="Band Pass Filter simulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Band Pass Filter simulation" />
+    <MESSAGE value="First order system control and PID simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="First order system control and PID simulation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Control_System_Examples$First_Order_System.coverage" NAME="First Order System Coverage Results" MODIFIED="1749215169367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
