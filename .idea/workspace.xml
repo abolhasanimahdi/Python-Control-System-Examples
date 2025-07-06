@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Add Mass Spring Damper simulation">
-      <change afterPath="$PROJECT_DIR$/Band Pass Filter.py" afterDir="false" />
+    <list default="true" id="9cdaeaca-aaac-4c6c-8180-eff69036cb9b" name="Changes" comment="Band Pass Filter simulation">
+      <change afterPath="$PROJECT_DIR$/Control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PID Simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +56,10 @@
     "Python.Band Pass Filter.executor": "Run",
     "Python.Bode Plot.executor": "Run",
     "Python.Close Loop System.executor": "Run",
+    "Python.Control.executor": "Run",
     "Python.First Order System.executor": "Run",
     "Python.Mass Spring Damper.executor": "Run",
+    "Python.PID Simulation.executor": "Run",
     "Python.PID.executor": "Run",
     "Python.State Space.executor": "Run",
     "Python.Time Delay Transfer Function.executor": "Run",
@@ -219,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751633490279</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Band Pass Filter simulation">
+      <option name="closed" value="true" />
+      <created>1751715889313</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751715889313</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +263,8 @@
     <MESSAGE value="Time delay using pade" />
     <MESSAGE value="Add state-space model" />
     <MESSAGE value="Add Mass Spring Damper simulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Mass Spring Damper simulation" />
+    <MESSAGE value="Band Pass Filter simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Band Pass Filter simulation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Control_System_Examples$First_Order_System.coverage" NAME="First Order System Coverage Results" MODIFIED="1749215169367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
